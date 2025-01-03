@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@apollo/client": "^3.12.4",
     "@vercel/node": "^3.0.0",
     "axios": "^1.6.7",
     "form-data": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
+    "next": "^14.0.0",
     "typescript": "^5.3.3",
-    "vercel": "^33.5.1",
-    "next": "^14.0.0"
+    "vercel": "^33.5.1"
   }
 }
