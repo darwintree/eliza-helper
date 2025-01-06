@@ -9,7 +9,7 @@ export interface SubgraphConfig {
 export interface TokenCreated {
     ts: string;
     creator: string;
-    token: string;
+    token: `0x${string}`;
     name: string;
     symbol: string;
     meta: string;
