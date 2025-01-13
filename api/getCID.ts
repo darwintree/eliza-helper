@@ -14,7 +14,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const { imageUrl } = req.body;
         
         if (!imageUrl) {
-            return res.status(400).json({ error: 'No image URL provided' });
+            return res.status(400).json({ error: 'No image URL provided', data: req.body });
         }
 
         const cid = await getImageCIDFromUrl(apiURL, imageUrl);
